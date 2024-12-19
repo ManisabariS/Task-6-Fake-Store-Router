@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 function ProductItem({ product, addToCart }) {
-  // Format price in INR
+ 
   const formattedPrice = new Intl.NumberFormat("en-IN", {
     style: "currency",
     currency: "INR",
